@@ -14,7 +14,8 @@ for(i=0;i<n-1;i++)
 ```
 
 ### Insertion
-```key=a[i];
+```
+key=a[i];
 j=i-1;
 
 while(j>=0 && a[j]>key)
@@ -35,13 +36,15 @@ for(i=0;i<range;i++)
     cout << i;
 ```
 ### Min/Max
-```min=max=a[0];
+```
+min=max=a[0];
 
 if(a[i]<min) min=a[i];
 if(a[i]>max) max=a[i];
 ```
 ### Heap
-```left=2*i+1;
+```
+left=2*i+1;
 right=2*i+2;
 ```
 ### Build heap:
@@ -56,7 +59,8 @@ for(i=n/2-1;i>=0;i--)
 ```Pivot → Partition → Recursion```
 
 ### Binary Search
-```mid=(low+high)/2;
+```
+mid=(low+high)/2;
 equal → found
 smaller → left
 larger → right
@@ -69,6 +73,3 @@ larger → right
 ```
 7 M values + 4 C formulas.
 ```
-
-
-7 M values + 4 C formulas.
