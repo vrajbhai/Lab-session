@@ -26,10 +26,10 @@ while(j>=0 && a[j]>key)
 a[j+1]=key;
 ```
 ### Counting
-```count[a[i]]++;
+```count[a[i]]++;```
 
 Then:
-
+```
 for(i=0;i<range;i++)
  while(count[i]--)
     cout << i;
